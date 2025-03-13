@@ -8,38 +8,15 @@
     <title>Weather App2</title>
   </head>
   <body>
-    <div>
-	<!-- <header
-		id="header"
-		style="
-			display:grid;
-			grid-template: 1fr / 1fr 1fr 1fr;
-			background-color: gray;
-			height: 100px;
-			width: 100vw;
-		"> -->
-      <form 
-	  	action=""
-		style="
-			grid-area: 1/1/2/2"
-		>
-		  <input 
-		  type="text"   
-		  id="location" 
-		  placeholder="Location" 
-		  name="location"
-		  style="
-			height: 40px;
-			width: 200px;
-			font-size: 20px;
-			
-			">
-		<button 
-		type="submit" 
-		id="submit">Go</button>
+	<header id="header">
+      <form id="form">
+		  <input type="text" id="locationInput" placeholder="Location" name="location">
+		<button type="submit" id="submit">Go</button>
 	</form>
-	</div>
-<!-- </header> -->
+</header>
+<div id="container">
+	<h1 id="address"></h1>
+</div>
 
 				
 	<script src="script.js"></script>
